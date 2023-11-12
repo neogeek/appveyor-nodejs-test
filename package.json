@@ -1,0 +1,10 @@
+{
+  "name": "appveyor-nodejs-test",
+  "devDependencies": {
+    "@types/node": "20.9.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "private": true
+}
